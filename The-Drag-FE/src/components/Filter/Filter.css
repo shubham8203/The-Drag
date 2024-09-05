@@ -1,0 +1,174 @@
+*{
+    --w:100vw;
+    --h:100vh;
+}
+
+@media screen and (min-width:800px){
+    .filter-popup{
+        color:rgba(64, 1, 1, 1);
+        background-color: rgba(255, 238, 203, 1) ;
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+        width:600px;
+        height:480px;
+        padding-top:34px;
+        padding-bottom: 15px;
+        padding-left: 52px;
+        padding-right: 52px;
+    position:relative;
+    
+    }
+    .filter-popup>h3{
+        font-family: 'Jost';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46.24px;
+    text-align: left;
+    }
+    .filter-form{
+        display:flex;
+        flex-direction: column;
+        gap:24px;
+        width:70%;
+        & button{
+            width:117px;
+    height:48px;
+    
+    
+    padding: 9px 35px 9px 35px;
+    gap: 10px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid rgba(64, 1, 1, 1);
+    color:rgba(64, 1, 1, 1);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.9px;
+    text-align: center;
+    background: transparent;
+    position:absolute;
+    top: 400px;
+     right:40px;
+     &:hover{
+        background-color: rgba(64, 1, 1, 1);
+        color:rgba(255, 238, 203, 1) ;
+     }
+        }
+    }
+    .filter-form>div>label{
+        font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    
+    }
+    .filter-form>div{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .filter-form>div>select{
+        width:45%;
+        outline: none;
+        border: 2px solid rgba(64, 1, 1, 1);
+        color:rgba(64, 1, 1, 1);
+        font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    text-align: left;
+    background-color: rgba(255, 238, 203, 1) ;
+    }
+    option:hover{
+    background-color:rgba(64, 1, 1, 1) ;
+    color:rgba(255, 238, 203, 1) ;
+    }
+    
+}
+
+@media screen and (min-width:250px) and (max-width:800px){
+    .filter-popup{
+        color:rgba(64, 1, 1, 1);
+        background-color: rgba(255, 238, 203, 1) ;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        width:calc(var(--w)*0.8);
+        height:calc(var(--h)*0.7);
+        padding-top:5px;
+        padding-bottom: 15px;
+        padding-left: 10%;
+        
+    position:relative;
+    
+    }
+    .filter-popup>h3{
+        font-family: 'Jost';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left;
+    }
+    .filter-form{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        width:70%;
+        & button{
+            width:80px;
+    height:35px;
+    
+    
+    padding: 5px 12px;
+    
+
+    opacity: 0px;
+    border: 2px solid rgba(64, 1, 1, 1);
+    color:rgba(64, 1, 1, 1);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    background: transparent;
+    
+   
+     &:hover{
+        background-color: rgba(64, 1, 1, 1);
+        color:rgba(255, 238, 203, 1) ;
+     }
+        }
+    }
+    .filter-form>div>label{
+        font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    
+    }
+    .filter-form>div{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        width:100%;
+        
+    }
+    .filter-form>div>select{
+        width:80%;
+        outline: none;
+        border: 1px solid rgba(64, 1, 1, 1);
+        color:rgba(64, 1, 1, 1);
+        font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left;
+    background-color: rgba(255, 238, 203, 1) ;
+    }
+
+    
+}

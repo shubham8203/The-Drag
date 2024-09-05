@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ @media screen and (min-width:1100px) {
+    .creator-card-container{
+        width:30%;
+        height:256px;
+        
+        background-color: rgba(255, 238, 203, 1);
+        
+        gap:3%;
+        display:flex;
+    }
+    .creator-card-left{
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+        position:relative;
+        width:57%;
+        height:100%;
+    }
+    .creator-card-left>.box-upper{
+        position:absolute;
+        top:3.5%;
+        left:3.8%;
+        width:25%;
+        height:28%;
+        border-top:2px solid rgba(64, 1, 1, 1);
+        border-left: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>.box-lower{
+        position:absolute;
+        bottom:6%;
+        right:3%;
+        width:30%;
+        height:28%;
+        border-right:2px solid rgba(64, 1, 1, 1);
+        border-bottom: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>img{
+        width:85%;
+        height:90%;
+         background-repeat: no-repeat;
+         background-size: contain;
+    
+    }
+    .creator-card-right{
+        width:40%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        gap:5%;
+    }
+    
+    .name{
+        margin-top: 15px;
+        width:100%;
+        &>h3{
+    font-size: 20px;
+    font-family: 'Jost';
+    font-weight: 500;
+    line-height: 23.12px;
+    color: rgba(28, 24, 38, 1);
+    text-align: start;
+        }
+        &>p{
+            font-size: 90%;
+            font-family: 'Jost';
+            font-weight: 400;
+            line-height: 90%;
+            color: rgba(51, 54, 63, 1);
+    
+        }
+    }
+    .followers>ul{
+        list-style: none;
+       display: flex;
+       flex-direction: column;
+       gap:5px;
+    
+    }
+    .followers>ul>li{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        &>p{
+            font-family:'Jost';
+            font-size:80%;
+            line-height: 90%;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 1);
+    
+        }
+        
+    }
+    .creator-card-right>.contact-btn{
+        cursor: pointer;
+        height:24px;
+        padding:4.5px, 17.5px, 4.5px, 17.5px;
+        width:50%;
+        font-family: 'Jost';
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 14.45px;
+        color:rgba(255, 238, 203, 1);
+          border:1px solid rgba(64, 1, 1, 1); ;
+          margin-left: 30px;
+        text-align: center;
+        background-color: rgba(64, 1, 1, 1);
+        &:hover{
+            background-color: rgba(255, 238, 203, 1);
+            color: rgba(64, 1, 1, 1);
+        }
+    
+    }
+    #facebook{
+        gap:16px;
+    }
+ }
+
+ @media screen and (min-width:800px) and (max-width:1100px) {
+    .creator-card-container{
+        width:45%;
+        height:256px;
+        
+        background-color: rgba(255, 238, 203, 1);
+        
+        gap:3%;
+        display:flex;
+    }
+    .creator-card-left{
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+        position:relative;
+        width:57%;
+        height:100%;
+    }
+    .creator-card-left>.box-upper{
+        position:absolute;
+        top:3.5%;
+        left:3.8%;
+        width:25%;
+        height:28%;
+        border-top:2px solid rgba(64, 1, 1, 1);
+        border-left: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>.box-lower{
+        position:absolute;
+        bottom:6%;
+        right:3%;
+        width:30%;
+        height:28%;
+        border-right:2px solid rgba(64, 1, 1, 1);
+        border-bottom: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>img{
+        width:85%;
+        height:90%;
+         background-repeat: no-repeat;
+         background-size: contain;
+    
+    }
+    .creator-card-right{
+        width:40%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        gap:5%;
+    }
+    
+    .name{
+        margin-top: 15px;
+        width:100%;
+        &>h3{
+    font-size: 20px;
+    font-family: 'Jost';
+    font-weight: 500;
+    line-height: 23.12px;
+    color: rgba(28, 24, 38, 1);
+    text-align: start;
+        }
+        &>p{
+            font-size: 90%;
+            font-family: 'Jost';
+            font-weight: 400;
+            line-height: 90%;
+            color: rgba(51, 54, 63, 1);
+    
+        }
+    }
+    .followers>ul{
+        list-style: none;
+       display: flex;
+       flex-direction: column;
+       gap:5px;
+    
+    }
+    .followers>ul>li{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        &>p{
+            font-family:'Jost';
+            font-size:80%;
+            line-height: 90%;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 1);
+    
+        }
+        
+    }
+    .creator-card-right>.contact-btn{
+        cursor: pointer;
+        height:24px;
+        padding:4.5px, 17.5px, 4.5px, 17.5px;
+        width:50%;
+        font-family: 'Jost';
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 14.45px;
+        color:rgba(255, 238, 203, 1);
+          border:1px solid rgba(64, 1, 1, 1); ;
+          margin-left: 30px;
+        text-align: center;
+        background-color: rgba(64, 1, 1, 1);
+        &:hover{
+            background-color: rgba(255, 238, 203, 1);
+            color: rgba(64, 1, 1, 1);
+        }
+    
+    }
+    #facebook{
+        gap:16px;
+    }
+ }
+
+ @media screen and  (max-width:800px){
+    .creator-card-container{
+        width:80%;
+        height: 235px;
+        
+        background-color: rgba(255, 238, 203, 1);
+        
+        gap:3%;
+        display:flex;
+    }
+    .creator-card-left{
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+        position:relative;
+        width:57%;
+        height:100%;
+    }
+    .creator-card-left>.box-upper{
+        position:absolute;
+        top:3.5%;
+        left:3.8%;
+        width:25%;
+        height:28%;
+        border-top:2px solid rgba(64, 1, 1, 1);
+        border-left: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>.box-lower{
+        position:absolute;
+        bottom:6%;
+        right:3%;
+        width:30%;
+        height:28%;
+        border-right:2px solid rgba(64, 1, 1, 1);
+        border-bottom: 2px solid rgba(64, 1, 1, 1);
+    }
+    .creator-card-left>img{
+        width:85%;
+        height:90%;
+         background-repeat: no-repeat;
+         background-size: contain;
+    
+    }
+    .creator-card-right{
+        width:40%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        gap:2%;
+    }
+    
+    .name{
+        margin-top: 15px;
+        width:100%;
+        gap:4px;
+        &>h3{
+    font-size: 90%;
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(28, 24, 38, 1);
+    text-align: start;
+        }
+        &>p{
+            font-size: 80%;
+            font-family: 'Jost';
+            font-weight: 400;
+            line-height: 100%;
+            color: rgba(51, 54, 63, 1);
+    
+        }
+    }
+    .followers>ul{
+        list-style: none;
+       display: flex;
+       flex-direction: column;
+       gap:2px;
+    
+    }
+    .followers>ul>li{
+        display:flex;
+        align-items:center;
+        gap:5px;
+        &>p{
+            font-family:'Jost';
+            font-size:70%;
+            line-height: 100%;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 1);
+    
+        }
+        
+    }
+    .creator-card-right>.contact-btn{
+        cursor: pointer;
+        height:10%;
+        padding:4px 2px;
+        width:55%;
+        font-family: 'Jost';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 100%;
+        color:rgba(255, 238, 203, 1);
+       border:none;
+          margin-left: 40%;
+        text-align: center;
+        background-color: rgba(64, 1, 1, 1);
+        &:hover{
+            background-color: rgba(255, 238, 203, 1);
+            color: rgba(64, 1, 1, 1);
+        }
+    
+    }
+    #facebook{
+        gap:16px;
+    }
+ }
+

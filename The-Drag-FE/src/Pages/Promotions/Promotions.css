@@ -1,0 +1,322 @@
+@media screen and (min-width:1100px) 
+{
+.promotions-container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin:37px auto;
+    margin-bottom: 100px;
+   
+}
+.promotions-container>.search-filter{
+    display:flex;
+    gap:100px;
+    height:50px;
+    margin:37px auto;
+}
+.promotions-container>.search-filter>.search{
+    color: 2px solid rgba(64, 1, 1, 1);
+    width:max-content;
+    height:100%;
+}
+.search>form{
+    background-color:  rgba(255, 238, 203, 1) ;
+    height:100%;
+    display: flex;
+    border-radius: 10px;
+}
+.search>form>label{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+.search>form>input{
+    border-radius: 0 10px 10px 0;
+    background:transparent;
+    background-color: rgba(255, 238, 203, 1) ;
+    outline: none;
+    height:100%;
+    border:none;
+    font-size: 20px;
+   margin-left:10px;
+   color: rgba(64, 1, 1, 1);
+   &::placeholder{
+    color:rgba(64, 1, 1, 1);
+   }
+}
+.filter{
+    width:250px;
+    display: flex;
+    gap:10px;
+    height:100%;
+    color:rgba(64, 1, 1, 1);
+    background-color: rgba(255, 238, 203, 1) ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.filter>img{
+    width:30px;
+    height:30px;
+   margin:auto 4px;
+
+}
+.filter>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.creators{
+    width:90%;
+    margin:0 auto;
+    >h2{
+        font-size:50px;
+        margin-top:50px;
+        color:white;
+        text-align:center;
+    }
+}
+.creator-list{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    column-gap:20px;
+    row-gap: 20px;
+    
+    
+}
+}
+
+@media screen and (min-width:800px) and (max-width:1100px){
+    .promotions-container{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        margin:20px auto;
+        margin-bottom: 100px;
+       
+    }
+    .promotions-container>.search-filter{
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        height:50px;
+        width:20%;
+        margin:20px auto;
+    }
+    .promotions-container>.search-filter>.search{
+        color: 2px solid rgba(64, 1, 1, 1);
+        width:100%;
+        height:50px;
+        transition: width 100ms 0s ease-in;
+        
+        &:hover{
+           
+            width:130%;
+        }
+      
+    }
+    .search>form{
+        background-color:  rgba(255, 238, 203, 1) ;
+        height:100%;
+        display: flex;
+        border-radius: 10px;
+        padding:8px 2px;
+        width:100%;
+        
+    }
+    .search>form>label{
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+        
+    }
+    .search>form>input{
+        border-radius: 0 10px 10px 0;
+        background:transparent;
+        background-color: rgba(255, 238, 203, 1) ;
+        outline: none;
+        height:100%;
+        border:none;
+        width:80%;
+        font-size: 20px;
+       margin-left:10px;
+       color: rgba(64, 1, 1, 1);
+       &::placeholder{
+        color:rgba(64, 1, 1, 1);
+       }
+    }
+    .filter{
+        width:100%;
+        display: flex;
+        gap:10px;
+        height:50px;
+        color:rgba(64, 1, 1, 1);
+        background-color: rgba(255, 238, 203, 1) ;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding:4px 2px;
+    }
+    .filter>img{
+        width:30px;
+        height:30px;
+       margin:auto 4px;
+    
+    }
+    .filter>p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .creators{
+        width:90%;
+        margin:0 auto;
+        >h2{
+            font-size:50px;
+            margin-top:50px;
+            color:white;
+            text-align:center;
+        }
+    }
+    .creator-list{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+        column-gap:20px;
+        row-gap: 20px;
+        
+        
+    }
+}
+
+@media screen and  (max-width:800px) {
+    
+    
+.promotions-container{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+   margin:0px auto;
+   margin-bottom: 100px;
+   
+}
+.promotions-container>.search-filter{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height:50px;
+    margin:10px auto;
+    width:40%;
+}
+.promotions-container>.search-filter>.search{
+    color:  rgba(64, 1, 1, 1);
+    width:100%;
+    height:100%;
+}
+.search>form{
+    background-color:  rgba(255, 238, 203, 1) ;
+    height:100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 8px 2px;
+    width:100%;
+    transition:width 100ms 0s ease-in;
+    &:hover{
+        width:150%;
+    }
+}
+.search>form>label{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+.search>form>input{
+    border-radius: 0 10px 10px 0;
+    background:transparent;
+    background-color: rgba(255, 238, 203, 1) ;
+    outline: none;
+    width:80%;
+    height:100%;
+    border:none;
+    font-size: 90%;
+   margin-left:10px;
+   color: rgba(64, 1, 1, 1);
+   &::placeholder{
+    color:rgba(64, 1, 1, 1);
+   }
+}
+.filter{
+    width:100%;
+    display: flex;
+    gap:10px;
+    height:100%;
+    color:rgba(64, 1, 1, 1);
+    background-color: rgba(255, 238, 203, 1) ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 2px;
+}
+.filter>img{
+    width:30px;
+    height:30px;
+   margin:auto 4px;
+
+}
+.filter>p{
+    font-size: 90%;
+    font-weight: 500;
+}
+.creators{
+    width:100%;
+    margin:0 auto;
+
+    >h2{
+        font-size:30px;
+        margin-top:30px;
+        color:white;
+        text-align:center;
+    }
+}
+.creator-list{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0 auto;
+    column-gap: 20px;
+    row-gap:20px;
+    
+
+}
+}
+
+@media screen and (min-width:415px) and (max-width:1418px) {
+    
+    
+
+
+}
+
+
+
+
+
+
